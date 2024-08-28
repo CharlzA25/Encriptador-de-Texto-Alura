@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <a href="#" rel="">
+            <img src ="./Assets/Logo.png" alt="Logo Alura" class="Logo1">
+        </a>
+        <main>
+            <section class="Encriptador">
+                <textarea class="Area_Encriptador" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="Aviso_Encriptador">
+                    <img src="./Assets/aviso.svg" alt="aviso" class="ImgAviso">
+                    <p class="AvisoTexto">Sólo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="BotonesEncriptador">
+                    <button type="submit" class="ButtomEncriptar">Encriptar</button>
+                    <button type="submit" class="ButtomDesencriptar">Desencriptar</button>
+                </div>
+            </section>
+            <section class="Resultado">
+                <div class="Caja_Resultado">
+                     <img src="./Assets/Logo2.png" alt="Logo2" class="LogoResultado">
+                     <p class="TextoPrimario">Ningún mensaje fue encontrado</p>
+                     <p class="TextoSecundario">Ingrese el texto que deseas encriptar o desencriptar</p>
+                </div>
+                <textarea type="mensaje" class="Desencriptado" readonly></textarea>
+                <button type="submit" class="ButtomCopiar">Copiar</button>
+              </section>  
+        </main>
+    <footer>
+        <p class="Desarrollo">Encriptador de texto realizado por Carlos Aguilar </p>
+<a href="https://www.linkedin.com/in/CharlzA25">
+    <img src="./Assets/linkedin.png" alt="Logo Linkedin" class="Linked">
+</a>
+<a href="https://github.com/CharlzA25">
+    <img src="./Assets/github.png" alt="Logo Github" class="Github">
+</a>
+    </footer>
+    <script src="./Js/Encriptador.js"></script>
+</body>
+</html>
